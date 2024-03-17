@@ -1,1 +1,16 @@
 # COVID-and-Lung-Diseases-Detection_DeepLearning
+
+In many poorer countries have only recently begun to vaccinate in significant numbers, so waves or surges of infections are still being experienced. No other medication with high efficacy against COVID-19 has been developed. These factors mean that spread of COVID is hard to monitor, detect and overcome in less developed countries, particularly with the emergence of newer more infectious strains. RT-PCR-based tests respiratory swabs from nasopharyngeal or oropharyngeal. Although these may fail to identify COVID-19 cases in the early phases when viral load is low in the sampled tissues. However, a more significant issue is that RT-PCR is expensive, requires highly developed facilities and technical expertise that in many countries there is limited accessibility outside of large towns.
+The Laboratory confirmation of SARS-CoV-2 is performed with a virus-specific RT– PCR, but the test can take up to 2 days to complete. Although these methods are to a large extent accurate, they have many drawbacks. Due to the patient number increase, there is a lack of test kits, the experienced operators’ availability. There is need for a new and better method to test for the virus which yields reliable and timely results.
+Researchers are working on overcoming the limitations of RT– PCR testing to enhance diagnosing and detection of the COVID-19. According to the recommendations by WHO chest imaging examination is an effective method for the detection of clinical symptoms of people who have been affected and recovered from the virus.
+
+
+# Proposed Solution
+We propose to use multiple benchmark CNN models have been created in our proposed work which have been trained individually to make independent predictions to predict covid positive or negative using x- rays where CNN is that each layer takes the feature maps of all preceding layers as inputs. This helps to strengthen feature propagation and encourages feature reuse for making predictions. In real life, we always prefer to come up with a medical diagnosis based on multiple medical expert views. The combined opinion of the medical experts helps in reaching a more reliable conclusion. Following the same philosophy, multiple benchmark CNN models have been adopted in our proposed work. They have been trained individually to make independent predictions. Then the models are combined, using a new method of weighted average ensemble technique, to predict a class value. This newly proposed assembling method is expected to make the prediction more robust
+1. Therefore we employed a pre-processing technique such as data Augmentation on the image dataset to enable the dataset to be accurately and efficiently analysed by our deep learning model.
+2. We developing an extended VGG-16-based deep learning model where fine-tuning was performed to facilitate rapid detection and diagnosis of COVID-19 cases with high accuracy.
+3. Classifying COVID-19 patient images from normal and typical pneumonia cases.
+4. We conducted a comparative performance analysis of our proposed methodology with other
+state-of-the-art approaches and showed that our model can identify COVID-19 cases with high accuracy using chest CT-scan
+ 
+  
